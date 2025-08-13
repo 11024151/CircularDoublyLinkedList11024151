@@ -17,7 +17,7 @@ insert(pos, item) 在指定位置pos添加节点
 remove(item) 删除一个节点
 search(item) 查找节点是否存在
 
-### 三、具体代码
+### 三、具體代碼
 class Node(object):
     """節點"""
     def __init__(self, item):
