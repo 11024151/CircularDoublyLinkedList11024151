@@ -1,29 +1,29 @@
 # CircularDoublyLinkedList 11024151
 ---
 
-## 題目二: Python實作的單向循環鏈錶功能範例
+## 題目二: Python實作的單向循環鏈表功能範例
 ### 一、概述：
-单向循环链表是指在单链表的基础上，表的最后一个元素指向链表头结点，不再是为空。
+單向循環鏈表是指在單鏈表的基礎上，表的最後一個元素指向鏈表頭結點，不再是為空。
 ![執行結果](hww001.png)
 
-由图可知，单向循环链表的判断条件不再是表为空了，而变成了是否到表头。
+由圖可知，單向循環鏈表的判斷條件不再是表為空了，而變成了是否到表頭。
 
 ### 二、操作
-is_empty() 判断链表是否为空
+is_empty() 判斷鏈表是否為空
 
-length() 返回链表的长度
+length() 傳回鏈表的長度
 
-travel() 遍历
+Travel() 遊覽
 
-add(item) 在头部添加一个节点
+add(item) 在頭部新增一個節點
 
-append(item) 在尾部添加一个节点
+append(item) 在尾部增加一個節點
 
-insert(pos, item) 在指定位置pos添加节点
+insert(pos, item) 在指定位置 pos 新增節點
 
-remove(item) 删除一个节点
+remove(item) 刪除一個節點
 
-search(item) 查找节点是否存在
+search(item) 查找節點是否存在
 
 ### 三、具體代碼
 class Node(object):
