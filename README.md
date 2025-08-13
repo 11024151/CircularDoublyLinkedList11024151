@@ -147,6 +147,7 @@ class SinCycLinkedlist(object):
                 return True
         return False
 
+### 主程式執行區塊
 
 if __name__ == "__main__":
     ll = SinCycLinkedlist()
